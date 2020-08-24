@@ -1,0 +1,20 @@
+#auth {
+  background: url(src/assets/auth-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mat-grid-tile {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+  color: aliceblue;
+  text-align: center;
+}
+
+.mat-raised-button {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

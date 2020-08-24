@@ -1,6 +1,8 @@
 {
   "name": "be-part-of-the-star-wars",
   "version": "0.0.1",
+  "author": "Kaapo Studio",
+  "homepage": "https://kaapo.studio/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,10 +14,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.3",
+    "@angular/cdk": "^9.2.4",
     "@angular/common": "~9.1.3",
     "@angular/compiler": "~9.1.3",
     "@angular/core": "~9.1.3",
     "@angular/forms": "~9.1.3",
+    "@angular/material": "^9.2.4",
     "@angular/platform-browser": "~9.1.3",
     "@angular/platform-browser-dynamic": "~9.1.3",
     "@angular/router": "~9.1.3",
@@ -48,6 +52,7 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "~3.8.3"
   },
+  "description": "An application who use the https://swapi.dev/ API.",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged && ng lint"
